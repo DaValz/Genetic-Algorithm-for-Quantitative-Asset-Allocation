@@ -1,0 +1,18 @@
+{
+ "built_at": "2026-10-24T15:32:25+00:00",
+ "currency": "EUR",
+ "fx": "EURUSD=X",
+ "frequency": "monthly",
+ "adjusted": true,
+ "years": 20,
+ "first": "2006-10",
+ "last": "2026-09",
+ "n_assets": 2828,
+ "n_months": 240,
+ "requested": 2830,
+ "failed": [],
+ "dropped": [
+  "ACCV",
+  "NXDR"
+ ]
+}

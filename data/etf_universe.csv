@@ -1,0 +1,41 @@
+Ticker,Nome,Categoria,Gruppo,Valuta,CMA
+XEON.MI,Xtrackers II EUR Overnight Rate Swap UCITS ETF 1C,Liquidità,UCITS (EUR),EUR,0.020
+IBGS.MI,iShares € Govt Bond 1-3yr UCITS ETF (Dist),Obbligazionario governativo,UCITS (EUR),EUR,0.029
+EUNH.DE,iShares Core € Govt Bond UCITS ETF (Dist),Obbligazionario governativo,UCITS (EUR),EUR,0.039
+IBCI.MI,iShares € Inflation Linked Govt Bond UCITS ETF (Acc),Obbligazionario governativo,UCITS (EUR),EUR,0.039
+IBTM.MI,iShares $ Treasury Bond 7-10yr UCITS ETF (Dist),Obbligazionario governativo,UCITS (EUR),EUR,0.039
+IEAC.MI,iShares Core € Corp Bond UCITS ETF (Dist),Obbligazionario corporate,UCITS (EUR),EUR,0.042
+IHYG.MI,iShares € High Yield Corp Bond UCITS ETF (Dist),Obbligazionario high yield,UCITS (EUR),EUR,0.075
+IEMB.MI,iShares J.P. Morgan $ EM Bond UCITS ETF (Dist),Obbligazionario emergenti,UCITS (EUR),EUR,0.059
+SEML.MI,iShares J.P. Morgan EM Local Govt Bond UCITS ETF (Dist),Obbligazionario emergenti,UCITS (EUR),EUR,0.059
+SWDA.MI,iShares Core MSCI World UCITS ETF (Acc),Azionario sviluppato,UCITS (EUR),EUR,0.075
+SXR8.DE,iShares Core S&P 500 UCITS ETF (Acc),Azionario sviluppato,UCITS (EUR),EUR,0.078
+IMEU.AS,iShares Core MSCI Europe UCITS ETF (Dist),Azionario sviluppato,UCITS (EUR),EUR,0.072
+IJPN.MI,iShares MSCI Japan UCITS ETF (Dist),Azionario sviluppato,UCITS (EUR),EUR,0.070
+EUNJ.DE,iShares MSCI Pacific ex-Japan UCITS ETF (Dist),Azionario sviluppato,UCITS (EUR),EUR,0.070
+EXXT.DE,iShares NASDAQ-100 UCITS ETF (DE),Azionario sviluppato,UCITS (EUR),EUR,0.078
+IEMA.AS,iShares MSCI EM UCITS ETF (Acc),Azionario emergente,UCITS (EUR),EUR,0.085
+SGLD.MI,Invesco Physical Gold ETC,Oro e materie prime,UCITS (EUR),EUR,0.039
+CMOD.MI,Invesco Bloomberg Commodity UCITS ETF,Oro e materie prime,UCITS (EUR),EUR,0.039
+BIL,SPDR Bloomberg 1-3 Month T-Bill ETF,Liquidità,ETF USA (USD),USD,0.020
+SHV,iShares Short Treasury Bond ETF,Liquidità,ETF USA (USD),USD,0.020
+SHY,iShares 1-3 Year Treasury Bond ETF,Obbligazionario governativo,ETF USA (USD),USD,0.029
+IEF,iShares 7-10 Year Treasury Bond ETF,Obbligazionario governativo,ETF USA (USD),USD,0.039
+TLT,iShares 20+ Year Treasury Bond ETF,Obbligazionario governativo,ETF USA (USD),USD,0.039
+TIP,iShares TIPS Bond ETF,Obbligazionario governativo,ETF USA (USD),USD,0.039
+BWX,SPDR Bloomberg International Treasury Bond ETF,Obbligazionario governativo,ETF USA (USD),USD,0.039
+AGG,iShares Core U.S. Aggregate Bond ETF,Obbligazionario corporate,ETF USA (USD),USD,0.039
+LQD,iShares iBoxx $ Investment Grade Corporate Bond ETF,Obbligazionario corporate,ETF USA (USD),USD,0.042
+HYG,iShares iBoxx $ High Yield Corporate Bond ETF,Obbligazionario high yield,ETF USA (USD),USD,0.075
+EMB,iShares J.P. Morgan USD Emerging Markets Bond ETF,Obbligazionario emergenti,ETF USA (USD),USD,0.059
+SPY,SPDR S&P 500 ETF Trust,Azionario sviluppato,ETF USA (USD),USD,0.078
+IWM,iShares Russell 2000 ETF,Azionario sviluppato,ETF USA (USD),USD,0.078
+QQQ,Invesco QQQ Trust,Azionario sviluppato,ETF USA (USD),USD,0.078
+VGK,Vanguard FTSE Europe ETF,Azionario sviluppato,ETF USA (USD),USD,0.072
+EWJ,iShares MSCI Japan ETF,Azionario sviluppato,ETF USA (USD),USD,0.070
+VPL,Vanguard FTSE Pacific ETF,Azionario sviluppato,ETF USA (USD),USD,0.070
+VT,Vanguard Total World Stock ETF,Azionario sviluppato,ETF USA (USD),USD,0.075
+VWO,Vanguard FTSE Emerging Markets ETF,Azionario emergente,ETF USA (USD),USD,0.085
+VNQ,Vanguard Real Estate ETF,Immobiliare,ETF USA (USD),USD,0.065
+GLD,SPDR Gold Shares,Oro e materie prime,ETF USA (USD),USD,0.039
+DBC,Invesco DB Commodity Index Tracking Fund,Oro e materie prime,ETF USA (USD),USD,0.039
