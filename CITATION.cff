@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: >-
+  If you use GoalGA in your work, please cite it with the metadata below and also cite the paper whose model it
+  implements (listed under "references").
+title: "GoalGA: goal-based dynamic asset allocation with genetic algorithms"
+type: software
+version: "2.0.0"
+license: MIT
+authors:
+  - name: "DaValz"
+repository-code: "https://github.com/DaValz/goalga"
+abstract: >-
+  A guided, multilingual robo-advisor that finds the glide path of nine efficient portfolios most likely to reach a
+  set of financial goals, using a genetic algorithm on bootstrapped market scenarios. It implements the model of
+  Pomante, Farina and Cucurachi (2024) and adds out-of-sample verification, a seeded universe of ~3,500 funds and
+  stocks, accounts with weight-change alerts and a Streamlit interface.
+keywords:
+  - goal-based investing
+  - dynamic asset allocation
+  - glide path
+  - genetic algorithm
+  - robo-advisor
+  - Streamlit
+references:
+  - type: article
+    title: "A “Plug-and-Play,” Goal-Based, Dynamic Asset Allocation Model with Genetic Algorithms"
+    authors:
+      - family-names: Pomante
+        given-names: Ugo
+      - family-names: Farina
+        given-names: Vincenzo
+      - family-names: Cucurachi
+        given-names: Paolo Antonio
+    journal: "The Journal of Wealth Management"
+    volume: 26
+    issue: "4"
+    start: 33
+    end: 48
+    year: 2024
+    doi: "10.3905/jwm.2024.1.227"
+    url: "https://doi.org/10.3905/jwm.2024.1.227"

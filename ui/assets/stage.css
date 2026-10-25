@@ -1,0 +1,28 @@
+@font-face { font-family: "Inter"; src: url("app/static/fonts/Inter-latin.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; background: transparent; color: #f4f6fb; font-family: Inter, system-ui, -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; -webkit-font-smoothing: antialiased; overflow: hidden; }
+#root { display: flex; flex-direction: column; height: 100%; }
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; padding: 22px 28px 4px; }
+.stat .k { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: #8b93a7; font-weight: 600; white-space: nowrap; }
+.stat .v { font-size: clamp(24px, 3.6vw, 40px); font-weight: 700; letter-spacing: -.045em; font-variant-numeric: tabular-nums; line-height: 1.12; margin-top: 5px; white-space: nowrap; }
+.stat .s { font-size: 12px; color: #6c7589; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.stat.hl .v { background: linear-gradient(90deg, #2dd4bf, #818cf8 55%, #f472b6); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.stat.ok .v { background: linear-gradient(90deg, #34d399, #2dd4bf); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.bar { position: relative; height: 4px; border-radius: 4px; background: rgba(255, 255, 255, .1); margin-top: 9px; }
+.bar i { position: absolute; left: 0; top: 0; bottom: 0; width: 0; border-radius: 4px; background: linear-gradient(90deg, #2dd4bf, #818cf8); }
+.stat.ok .bar i { background: linear-gradient(90deg, #34d399, #2dd4bf); }
+.bar b { position: absolute; top: -4px; bottom: -4px; width: 2px; margin-left: -1px; background: #fff; opacity: .75; border-radius: 2px; }
+.cv-wrap { position: relative; flex: 1; min-height: 0; }
+canvas { position: absolute; inset: 0; display: block; }
+.foot { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 0 28px 18px; min-height: 46px; }
+.narr { font-size: 14px; color: #a4acbd; transition: opacity .3s ease; line-height: 1.4; }
+.done .narr { color: #f4f6fb; font-weight: 600; }
+body.ambient .stats, body.ambient .foot { display: none; }
+@media (max-width: 640px) {
+  .stats { grid-template-columns: repeat(3, minmax(0, 1fr)); padding: 16px 16px 2px; gap: 8px; }
+  .stats .stat:nth-child(2) { display: none; }
+  .stat .k { font-size: 9.5px; letter-spacing: .1em; }
+  .stat .s { display: none; }
+  .foot { padding: 0 16px 14px; }
+  .narr { font-size: 12.5px; }
+}

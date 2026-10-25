@@ -1,0 +1,7 @@
+-r requirements.txt
+pytest>=8
+numpy-financial>=1.0
+ruff>=0.5
+playwright>=1.45
+pillow>=10
+pyyaml>=6                     # validates CITATION.cff in tests/test_docs.py

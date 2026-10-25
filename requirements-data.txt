@@ -1,0 +1,4 @@
+# Only needed to refresh the price archive (scripts/update_prices.py, scripts/update_ticker.py): the app itself reads
+# data/prices_monthly.parquet and never downloads anything.
+-r requirements.txt
+yfinance>=0.2.60,<2

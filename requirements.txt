@@ -1,0 +1,9 @@
+streamlit>=1.63,<1.67        # the UI customises Streamlit internals: raise the cap only after scripts/e2e_smoke.py passes
+pandas>=2.2,<3
+numpy>=1.26,<3
+scipy>=1.11,<2
+plotly>=5.22,<7
+pyarrow>=15
+openpyxl>=3.1,<4
+sqlalchemy>=2.0,<3
+psycopg2-binary>=2.9,<3   # optional PostgreSQL driver (GOALGA_DATABASE_URL=postgresql://...)
